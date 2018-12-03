@@ -64,5 +64,7 @@ On Linux, except install package `ZKWeb.System.Drawing` from nuget, you need ins
 	- make install
 	- cd /usr/lib64/
 	- ln -s /usr/local/lib/libgdiplus.so gdiplus.dll
+- Mac OS(libgdiplus is now in Homebrew):
+	- brew install mono-libgdiplus
 
 **Then you should replace all `System.Drawing` To `System.DrawingCore` in your code**
